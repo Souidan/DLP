@@ -1,0 +1,249 @@
+[{
+    'incidentId': 1362,
+    'statusCode': 'SUCCESS',
+    'incident': {
+        'incidentId': 1362,
+        'uniqueMessageId': '615C387C-FE30-4AB9-99ED-0BB9EED1B2D9',
+        'incidentCreationDate': datetime.datetime(2018, 7, 18, 18, 21, 50, 74000, tzinfo=<FixedOffset '+02:00'>),
+        'detectionDate': datetime.datetime(2018, 7, 18, 18, 21, 28, 714000, tzinfo=<FixedOffset '+02:00'>),
+        'severity': 'high',
+        'status': 'New',
+        'messageSource': {
+            '_value_1': 'Network',
+            'sourceType': 'NETWORK'
+        },
+        'messageType': {
+            '_value_1': 'SMTP',
+            'typeId': 2
+        },
+        'policy': {
+            'name': 'test fo2sh',
+            'version': 9,
+            'label': None,
+            'policyId': 41
+        },
+        'violatedPolicyRule': [
+            {
+                'ruleName': 'test',
+                'ruleId': 223
+            }
+        ],
+        'otherViolatedPolicy': [],
+        'blockedStatus': 'FlexResponse Error',
+        'matchCount': 1,
+        'ruleViolationCount': None,
+        'detectionServer': 'endpoint',
+        'customAttributeGroup': [
+            {
+                'customAttribute': [
+                    {
+                        'name': 'test',
+                        'value': None
+                    }
+                ],
+                'name': 'test'
+            },
+            {
+                'customAttribute': [
+                    {
+                        'name': 'Resolution',
+                        'value': 'done'
+                    },
+                    {
+                        'name': 'Dismissal Reason',
+                        'value': None
+                    },
+                    {
+                        'name': 'Assigned To',
+                        'value': None
+                    },
+                    {
+                        'name': 'Business Unit',
+                        'value': None
+                    },
+                    {
+                        'name': 'Employee Code',
+                        'value': None
+                    },
+                    {
+                        'name': 'First Name',
+                        'value': None
+                    },
+                    {
+                        'name': 'Last Name',
+                        'value': None
+                    },
+                    {
+                        'name': 'Phone',
+                        'value': None
+                    },
+                    {
+                        'name': 'Sender Email',
+                        'value': None
+                    },
+                    {
+                        'name': 'Manager First Name',
+                        'value': None
+                    },
+                    {
+                        'name': 'Manager Last Name',
+                        'value': None
+                    },
+                    {
+                        'name': 'Manager Phone',
+                        'value': None
+                    },
+                    {
+                        'name': 'Manager Email',
+                        'value': None
+                    },
+                    {
+                        'name': 'Region',
+                        'value': None
+                    },
+                    {
+                        'name': 'Country',
+                        'value': None
+                    },
+                    {
+                        'name': 'Postal Code',
+                        'value': None
+                    }
+                ],
+                'name': 'Predefined'
+            }
+        ],
+        'incidentHistory': [
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 19, 13, 54, 58, 232000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Attributes Set',
+                    'actionTypeId': 4
+                },
+                'detail': 'Resolution=done\ntest=\nDismissal Reason=\nAssigned To=\nBusiness Unit=\nEmployee Code=\nFirst Name=\nLast Name=\nPhone=\nSender Email=\nManager First Name=\nManager Last Name=\nManager Phone=\nManager Email=\nRegion=\nCountry=\nPostal Code='
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 19, 13, 53, 6, 748000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'FlexResponse Action Failed',
+                    'actionTypeId': 27
+                },
+                'detail': '[Email Quarantine Connect Approve Action] failed with message: java.net.ConnectException: Connection timed out: connect'
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 19, 13, 52, 45, 623000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'FlexResponse Action Requested',
+                    'actionTypeId': 25
+                },
+                'detail': '[Email Quarantine Connect Approve Action]'
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 49, 949000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Notification Sent',
+                    'actionTypeId': 10
+                },
+                'detail': 'Incident notification sent to exadmin@Share-technologies.org, dlpscript@share-technologies.org.'
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 47, 136000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Attribute Lookup Completed',
+                    'actionTypeId': 6
+                },
+                'detail': 'Resolution=\ntest=\nDismissal Reason=\nAssigned To=\nBusiness Unit=\nEmployee Code=\nFirst Name=\nLast Name=\nPhone=\nSender Email=\nManager First Name=\nManager Last Name=\nManager Phone=\nManager Email=\nRegion=\nCountry=\nPostal Code='
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 46, 464000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Attribute Lookup Requested',
+                    'actionTypeId': 8
+                },
+                'detail': None
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 46, 402000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Status Changed',
+                    'actionTypeId': 2
+                },
+                'detail': 'New'
+            },
+            {
+                'user': 'endpoint',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 28, 808000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Incident data discarded based on response rule',
+                    'actionTypeId': 16
+                },
+                'detail': None
+            },
+            {
+                'user': 'Administrator',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 28, 792000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Severity Changed',
+                    'actionTypeId': 15
+                },
+                'detail': 'High'
+            },
+            {
+                'user': 'endpoint',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 28, 792000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Headers Modified',
+                    'actionTypeId': 14
+                },
+                'detail': 'Modified message headers:\nAdded headers: X-dlp-uniquemsgid: 615C387C-FE30-4AB9-99ED-0BB9EED1B2D9\nX-dlp-policyid: 41'
+            },
+            {
+                'user': 'endpoint',
+                'date': datetime.datetime(2018, 7, 18, 18, 21, 28, 714000, tzinfo=<FixedOffset '+02:00'>),
+                'actionType': {
+                    '_value_1': 'Detected',
+                    'actionTypeId': 3
+                },
+                'detail': None
+            }
+        ],
+        'dataOwner': None,
+        'incidentLongId': 1362,
+        'messageDate': datetime.datetime(2018, 7, 18, 18, 21, 26, tzinfo=<FixedOffset '+02:00'>),
+        'originator': {
+            'senderIdentifier': 'exadmin@Share-technologies.org',
+            'IPAddress': None,
+            'port': None,
+            'originatorId': 1322,
+            'originatorIdLong': 1322
+        },
+        'recipient': [
+            {
+                'recipientIdentifier': 'fady.azab@sharetech-me.com',
+                'IPAddress': None,
+                'port': None,
+                'recipientId': 262,
+                'recipientIdLong': 262
+            }
+        ],
+        'messageBodyContent': 'hamzoly\r\n',
+        'messageHeader': None,
+        'messageBody': None,
+        'file': [],
+        'environment': {
+            '_value_1': 'ONPREMISES',
+            'networkEnvironmentType': 'ONPREMISES'
+        },
+        'subject': 'test'
+    },
+    'incidentLongId': 1362
+}]
+5
+(my_env) ahmeds-mbp:Python ahmedsouidan$
