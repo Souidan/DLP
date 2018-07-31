@@ -1,0 +1,14 @@
+POST /ProtectManager/UpdateExecuteResponseRule.do HTTP/1.1
+Host: 192.168.1.233
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://192.168.1.233/ProtectManager/SelectResponseForManualExecute.do
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 264
+Cookie: JSESSIONID=EE557B18A08DB13C999EF13E1DB7EE2F; uidevmode=0; snapshot-selected-tab-index=
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+value%28ruleID%29=65&value%28incidentIDs%29=1262&value%28reportType%29=NETWORK&csrfProtectionToken=RL%2FkurOhfa1oKfOvPwAiZw%3D%3D&value%28csrfProtectionToken%29=RL%2FkurOhfa1oKfOvPwAiZw%3D%3D&value%28state_menuID%29=network.3&value%28state_selectedTab%29=undefined

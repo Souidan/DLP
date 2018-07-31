@@ -1,0 +1,2556 @@
+HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Cache-Control: no-cache,no-store,max-age=0
+Pragma: No-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Strict-Transport-Security: max-age=31536000;includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+P3P: CP="COM CNT INT CAO CUR ADM OUR IND"
+Content-Type: text/html;charset=UTF-8
+Date: Fri, 01 Jun 2018 14:20:14 GMT
+Connection: close
+Content-Length: 116287
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+<title>Symantec Data Loss Prevention</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="csrf-protection-token" content="RL/kurOhfa1oKfOvPwAiZw=="/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/yui3/build/cssreset/reset-min.css" />
+<link rel="stylesheet" type="text/css" href="/ProtectManager/yui3/build/cssgrids/grids-min.css" />
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/js/yui/build/button/assets/skins/sam/button.css" />
+<link rel="stylesheet" type="text/css" href="/ProtectManager/js/yui/build/container/assets/skins/sam/container.css" />
+<link rel="stylesheet" type="text/css" href="/ProtectManager/js/yui/build/tabview/assets/skins/sam/tabview.css"/>
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/lib/jquery/ui/smoothness/jquery-ui-1.10.3.custom.css" />
+
+<link rel="stylesheet" href="/ProtectManager/containers.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/ProtectManager/skins.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/ProtectManager/layouts.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/ProtectManager/common_header.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css"  media="screen" href="/ProtectManager/js/polyfill/progress/progress-polyfill.css" />
+<link rel="stylesheet" href="/ProtectManager/widgets.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="/ProtectManager/protect.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="/ProtectManager/protect_print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/ProtectManager/button-skin.css" type="text/css" />
+<link rel="stylesheet" href="/ProtectManager/tab-view-skin.css"  type="text/css" />
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" type="text/css" href="/ProtectManager/lib/bootstrap/bootstrap.css" />
+<!-- Bootstrap overrides CSS -->
+<link rel="stylesheet" type="text/css" href="/ProtectManager/lib/bootstrap/bootstrap_submenu.css" />
+<link rel="stylesheet" type="text/css" href="/ProtectManager/lib/bootstrap/bootstrap_overrides.css" />
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/browsercss/ie.css" />
+
+<link rel="stylesheet" href="/ProtectManager/content.css" type="text/css" media="screen" />
+
+<link rel="icon" href="/ProtectManager/graphics/logo-DLP.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/ProtectManager/graphics/logo-DLP.ico" type="image/x-icon" />
+
+<script type="text/javascript" src="/ProtectManager/js/yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/yui/build/element/element-min.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/yui/build/button/button-min.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/yui/build/container/container-min.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/yui/build/tabview/tabview-min.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/jquery/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/bootstrap/bootstrap.patch.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/jquery/ui/js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/jquery/ui/js/i18n/jquery-ui-i18n.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/globalize/globalize.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/globalize/cultures/globalize.cultures.js"></script>
+
+<script type="text/javascript" src="/ProtectManager//js/jquery/plugins/jquery.cookie/jquery.cookie.js"></script>
+<script type="text/javascript" src="/ProtectManager//js/external/cryptojs-2.5.3/crypto-md5/crypto-md5.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/autosize/jquery.autosize.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/autosizeInput/autosize.input.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/rangyinputs/rangyinputs-jquery-1.1.2.min.js"></script>
+
+<script src="/ProtectManager/js/i18n/Interface.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/i18n/I18NFormatter.js" type="text/javascript"></script>
+
+<script src="/ProtectManager/js/vontucommon/vontu_namespaces.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/vontucommon/vontu_utils.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/vontucommon/ajax_utils.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/summaryscripts.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/vontucommon/log_utils.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/vontucommon/security_utils.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/vontucommon/homepage/homepage.js" type="text/javascript"></script>
+<script type="text/javascript" src="/ProtectManager/js/ipv6/ipv6.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/sprintf/sprintf.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/jquery.validation/jquery.validate.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/vontucommon/clientvalidation/extended_validations.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/vontucommon/clientvalidation/client_validation.js"></script>
+<link rel="stylesheet" type="text/css" href="/ProtectManager/js/vontucommon/clientvalidation/client_validation.css" />
+    <span class="i18n-strings hidden">
+            <label id="default.required.message">This field is required.</label>
+            <label id="default.email.message">Enter a valid email address.</label>
+            <label id="default.url.message">Enter a valid URL.</label>
+            <label id="default.date.message">Enter a valid date.</label>
+            <label id="default.dateISO.message">Enter a valid date in ISO format.</label>
+            <label id="default.ipv4.message">Enter a valid IPv4 address.</label>
+            <label id="default.ipv6.message">Enter a valid IPv6 address.</label>
+            <label id="default.ipv4v6.message">Enter a valid IPv4 or IPv6 address.</label>
+            <label id="default.decimal.message">Enter a decimal number.</label>
+            <label id="default.digits.message">This field accepts digits only.</label>
+            <label id="default.positiveInteger.message">Enter a positive integer.</label>
+            <label id="default.creditCard.message">Enter a valid credit card number.</label>
+            <label id="default.equalTo.message">Enter the same value.</label>
+            <label id="default.fileExtension.message">A filename with a valid extension is required.</label>
+            <label id="default.maximumLength.message">You must enter a maximum of {0} characters.</label>
+            <label id="default.minimumLength.message">You must enter a minimum of {0} characters.</label>
+            <label id="default.rangeLength.message">You must enter {0} to {1} characters.</label>
+            <label id="default.range.message">You must enter a value between {0} and {1}.</label>
+            <label id="default.max.message">You must enter a value less than or equal to {0}.</label>
+            <label id="default.min.message">You must enter a value greater than or equal to {0}.</label>
+            <label id="default.hostName.message">Enter a valid host name.</label>
+            <label id="default.portNumber.message">Enter a valid port number.</label>
+            <label id="default.pathFilter.message">Network share path filter entered is invalid.</label>
+    </span>
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/widgetcss/data-populator.css" />
+<script src="/ProtectManager/js/vontucommon/datapopulator/data_populator.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/vontucommon/pageinitroutine/pageinitroutine.js"></script>
+
+    
+    <span class="i18n-strings hidden">
+            <label id="common.form.cancel">You will lose any changes. OK to cancel without saving your changes?</label>
+            <label id="common.warning.tip">Warning</label>
+            <label id="common.info.tip">Info</label>
+            <label id="common.button.ok">OK</label>
+            <label id="common.button.close">Close</label>
+            <label id="common.button.cancel">Cancel</label>
+            <label id="common.button.leave">Leave</label>
+            <label id="common.button.stay">Stay</label>
+            <label id="common.button.yes">Yes</label>
+            <label id="common.button.no">No</label>
+            <label id="common.dialog.title.error">Error</label>
+            <label id="common.dialog.title.info">Info</label>
+            <label id="common.dialog.title.warning">Warning</label>
+            <label id="common.dialog.title.cancel">Cancel</label>
+            <label id="common.dialog.title.delete">Delete</label>
+            <label id="common.dialog.title.selectall">Select all</label>
+            <label id="common.dialog.title.validation">Validation error</label>
+            <label id="common.dialog.title.expire">Session expired</label>
+            <label id="common.dialog.title.logout">Log out</label>
+            <label id="common.dialog.title.share">Share report</label>
+            <label id="common.dialog.title.retry">Retry</label>
+            <label id="common.dialog.title.recycle">Recycle</label>
+            <label id="common.dialog.title.applyall">Apply to all</label>
+            <label id="common.dialog.title.stop">Stop</label>
+            <label id="common.dialog.title.continue">Continue</label>
+            <label id="common.dialog.title.change">Change</label>
+            <label id="common.dialog.close.tooltip">Close</label>
+    </span>
+	<script type="text/javascript" src="/ProtectManager/js/widgets/dialog.js"></script> 
+    <script type="text/javascript" src="/ProtectManager/js/vontucommon/infopopup/infopopup.js"></script>
+    <script src="/ProtectManager/js/jquery/plugins/hoverintent/jquery.hoverIntent.js" type="text/javascript"  ></script>
+    <script src="/ProtectManager/js/jquery/plugins/cluetip/jquery.cluetip.js" type="text/javascript"  ></script>
+    <link rel="stylesheet" type="text/css" href="/ProtectManager/js/jquery/plugins/cluetip/jquery.cluetip.css" />
+
+<script src="/ProtectManager/js/post_link.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/i18nMessageUtils.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/validation.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/container.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/crossbrowser.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/menus.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/widgets.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/navigation.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/report_mailing.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/widgets/buttons.js" type="text/javascript"></script>
+<script src="/ProtectManager/js/widgets/tabview.js" type="text/javascript"></script>
+
+<script src="/ProtectManager/js/external/jsonlibrary/json2.js" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="/ProtectManager/js/jquery/plugins/placeHolder/placeholder-polyfill.js"></script>
+<link rel="stylesheet" type="text/css" href="/ProtectManager/js/jquery/plugins/placeHolder/placeholder-polyfill.css" />
+
+    <span class="i18n-strings hidden">
+            <label id="common.success.tip">Success</label>
+            <label id="common.warning.tip">Warning</label>
+            <label id="common.error.tip">Error</label>
+            <label id="highlander.error.label">ERROR</label>
+            <label id="highlander.warning.label">WARNING</label>
+            <label id="highlander.info.label">INFORMATIONAL</label>
+            <label id="highlander.success.label">SUCCESS</label>
+    </span>
+    
+    <script id="template-message-pane" type="text/x-template">
+        <div class="message-pane template-class">
+            <div class="alert-message">
+				<div class="yui3-g message-pane-scroll">
+					<div class="yui3-u-1-24 message-icon">
+					</div>
+					<div class="yui3-u-11-12 wrapping-text">
+					    <div  class="message-content">
+						</div>
+					</div>
+					<div class="yui3-u-1-24">
+					    <div class="message-pane-actions">
+                            <a href="#" class="message-back-to-element hidden action-icon">
+                                <img src="/ProtectManager/graphics/general/scroll_back_16.png" alt="" title="Show affected object"/>
+                            </a>
+                            <a href="#" class="message-pane-close action-icon">
+                                <img src="/ProtectManager/graphics/general/cancel_blue_16.png" alt=""  title="Close message bar"/>
+                            </a>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </script>
+    
+    <script id="template-highlander-message-pane" type="text/x-template">
+    <div class="section inlineMessage shrink-to-fit ">
+    	<div class="section-header wide-text strong"></div>
+    	<div class="section-body wide-text"></div>
+    </div>
+    </script>
+
+	<script type="text/javascript" src="/ProtectManager/js/errorhandler.js"></script>
+	<script type="text/javascript" src="/ProtectManager/js/inlinehandler.js"></script>
+
+            <span class="page-state hidden" key="menuID" value="network.3"></span>
+<script type="text/javascript" src="/ProtectManager/js/vontucommon/page_state.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/yui_config.js"></script>
+
+
+<script type="text/javascript" src="/ProtectManager/js/bootstrap/plugins/bootstrap_hovernav.js"></script>
+<script type="text/javascript" src="/ProtectManager/js/bootstrap/plugins/bootstrap_events.js"></script>
+
+<link rel="stylesheet" type="text/css" href="js/yui/build/menu/assets/skins/sam/menu.css"/>
+<link rel="stylesheet" type="text/css" href="/ProtectManager/report-bar-menu.css"/>
+
+<link rel="stylesheet" type="text/css" href="dialog-skin.css"/>
+
+<script type="text/javascript" src="js/yui/build/dragdrop/dragdrop-min.js"></script>
+<script type="text/javascript" src="js/yui/build/container/container-min.js"></script>
+<script src="/ProtectManager/js/yui/build/menu/menu-min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="/ProtectManager/pagecss/incidentDetail.css"/>
+
+<script type="text/javascript" src="/ProtectManager/js/report_controls.js"></script>
+<script language="javascript" src="js/checkBoxUtils.js" type="text/javascript"></script>
+<script language="javascript" src="js/reportutil.js" type="text/javascript"></script>
+<script language="javascript" src="js/widgets.js" type="text/javascript"></script>
+<script language="javascript" src="js/attributeseditor.js" type="text/javascript"></script>
+<script language="javascript" src="js/commenteditor.js" type="text/javascript"></script>
+<script language="javascript" src="js/correlationeditor.js" type="text/javascript"></script>
+<script src="js/dialogGroup.js" type="text/javascript"></script>
+<script src="js/data_owner_dialogs.js" type="text/javascript"></script>
+<script src="js/incident_remediator_dialogs.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/page/incident_detail.js"></script>
+
+
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+
+
+	vontu.page.incidentDetail.messages["common.button.save"] = "Save";
+
+
+
+	vontu.page.incidentDetail.messages["common.button.cancel"] = "Cancel";
+
+
+
+	vontu.page.incidentDetail.messages["report.incidentSnapshot.message.originalMessageNotAvailable"] = "The original message or file is not available, and was discarded according to policy or by the Administrator for data storage management.";
+
+
+
+	vontu.page.incidentDetail.messages["report.incidentSnapshot.message.remediationSet"] = "Are you sure you want to set the remediation status as \"User Accepted\"? This action cannot be undone.";
+
+
+
+	vontu.page.incidentDetail.messages["send_report.errmsg.mail_list.to"] = "The To field must contain a list of valid email addresses separated by commas.";
+
+
+
+	vontu.page.incidentDetail.messages["send_report.errmsg.length.message"] = "The Message can only be up to 2048 characters. This Message has {0}.";
+
+
+        vontu.page.incidentDetail.pageData.reportType = "NETWORK";
+        vontu.page.incidentDetail.pageData.incidentID = "1262";
+        vontu.page.incidentDetail.pageData.messageID = "1262";
+        vontu.page.incidentDetail.pageData.originalMessageAvailable = true;
+        vontu.page.incidentDetail.pageData.correlationsLoaded = false;
+        vontu.page.incidentDetail.pageData.messageTypeID = "2";
+        vontu.page.incidentDetail.pageData.snapshotAction = "IncidentDetail.do";
+        vontu.page.incidentDetail.pageData.incidentStatusRemediated = false;
+        var rotateImageText = "Rotate";
+        var zoomFactorText = "(x {0})";
+
+         /*   ]]>       */
+		-->
+	</script>
+
+<span id="login-init"
+      data-message="Your session has expired and you will be logged off."
+      data-timeout="1800000"
+      data-path="/ProtectManager/Logoff"
+      data-type="STANDARD"
+      data-expired="true"
+      data-userid="1"
+        >
+</span>
+<script type="text/javascript" src="/ProtectManager/js/login_init.js"></script>
+
+    <span class="i18n-strings hidden">
+            <label id="formModificationCancel">You will lose any changes. Are you sure you want to leave this page?</label>
+            <label id="incorrectEmailAddressList">The To field must contain a list of valid email addresses separated by commas</label>
+            <label id="messageFieldTooLong">The To field must contain a list of valid email addresses separated by commas</label>
+    </span>
+
+	<link rel="stylesheet" href="/ProtectManager/servlet/l10n/css/overrides.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/ProtectManager/servlet/l10n/css/overrides_print.css" type="text/css" media="print" />
+    </head>
+    <body>
+<div id="skipToMainContent" class="skipToMainContent">
+  <a href="#main-content">Skip Navigation</a>
+</div>
+
+<div id="page-wrapper"  class="yui-skin-sam width-container table-height-layout">
+<div class="ie-width-container"></div>
+<span id="loading-indicator" class="smaller-text web-only">
+Loading...
+</span>
+
+<div id="top-navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <p class="navbar-brand"><img src="/ProtectManager/graphics/Vontu_16.png" alt="Symantec Data Loss Prevention"/>
+            <span class="navbar-company-name">Symantec Data Loss Prevention</span></p>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+                <li class="" >
+                    <a href="#" id="default" data-url="/ProtectManager/enforce/home" class="dropdown-toggle"
+                        > Home  </a>
+                </li>
+                <li class=" dropdown active" >
+                    <a href="#" id="incidents" data-url="/ProtectManager/enforce/navigate?menuID=my_report_list" class="dropdown-toggle"
+                         data-toggle="dropdown" > Incidents 
+                        <b class="caret"></b> </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="incidents">
+                                        <li class="menu-item
+                                            
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_my_report_list" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=my_report_list"
+                                            class="nav-menu-item-link"
+                                            ><span class="navbar-menu-item-text-padding">All Reports</span></a>
+                                        </li>
+                                        <li class="menu-item
+                                            
+                                             disabled 
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_dashboards" role="menuitem"  tabindex="-1"
+                                            data-url=""
+                                            class="nav-menu-item-link"
+                                            ><span class="navbar-menu-item-text-padding">Dashboards</span></a>
+                                        </li>
+                                        <li class="menu-item
+                                            
+                                            
+                                             active 
+                                            " role="presentation">
+                                        <a id="report_group_network" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/GetReport.do?reportID=3"
+                                            class="nav-menu-item-link"
+                                            ><span class="navbar-menu-item-text-padding">Network</span></a>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_endpoint" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/GetReport.do?reportID=6"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Endpoint</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="saved.141" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/GetReport.do?reportID=141">
+                            <span class="navbar-menu-item-text-padding">test6758</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                            
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_storage" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/GetReport.do?reportID=10"
+                                            class="nav-menu-item-link"
+                                            ><span class="navbar-menu-item-text-padding">Discover</span></a>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_users_incidents" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=user_risk_summary"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Users</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="user_risk_summary" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=user_risk_summary">
+                            <span class="navbar-menu-item-text-padding">User Risk Summary</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="user_info" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=user_info">
+                            <span class="navbar-menu-item-text-padding">User List</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                        </ul>
+                </li>
+                <li class=" dropdown" >
+                    <a href="#" id="manage" data-url="/ProtectManager/enforce/navigate?menuID=policies" class="dropdown-toggle"
+                         data-toggle="dropdown" > Manage 
+                        <b class="caret"></b> </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="manage">
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_manage_policies" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=policies"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Policies</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="policies" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=policies">
+                            <span class="navbar-menu-item-text-padding">Policy List</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="response_rules" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=response_rules">
+                            <span class="navbar-menu-item-text-padding">Response Rules</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="data_identifiers" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=data_identifiers">
+                            <span class="navbar-menu-item-text-padding">Data Identifiers</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="endpoint_groups" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=endpoint_groups">
+                            <span class="navbar-menu-item-text-padding">User Groups</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="sender_recipient_patterns" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=sender_recipient_patterns">
+                            <span class="navbar-menu-item-text-padding">Sender/Recipient Patterns</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_registeredContent" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=data_sources"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Data Profiles</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="data_sources" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=data_sources">
+                            <span class="navbar-menu-item-text-padding">Exact Data</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="document_sources" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=document_sources">
+                            <span class="navbar-menu-item-text-padding">Indexed Documents</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="mld_profiles" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=mld_profiles">
+                            <span class="navbar-menu-item-text-padding">Vector Machine Learning</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="form_recognition_profile" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=form_recognition_profiles">
+                            <span class="navbar-menu-item-text-padding">Form Recognition</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_storage_scanning" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=scanConfiguration"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Discover Scanning</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="scanConfiguration" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=scanConfiguration">
+                            <span class="navbar-menu-item-text-padding">Discover Targets</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="scanHistory" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=scanHistory">
+                            <span class="navbar-menu-item-text-padding">Scan History</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="contentRootEnumeration" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=contentRootEnumeration">
+                            <span class="navbar-menu-item-text-padding">Content Root Enumeration</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="discoverServers" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=discoverServers">
+                            <span class="navbar-menu-item-text-padding">Discover Servers and Detectors</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                        </ul>
+                </li>
+                <li class=" dropdown" >
+                    <a href="#" id="system" data-url="/ProtectManager/enforce/navigate?menuID=system_overview" class="dropdown-toggle"
+                         data-toggle="dropdown" > System 
+                        <b class="caret"></b> </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="system">
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_servers" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=system_overview"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Servers and Detectors</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="system_overview" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=system_overview">
+                            <span class="navbar-menu-item-text-padding">Overview</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="policyGroups" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=policyGroups">
+                            <span class="navbar-menu-item-text-padding">Policy Groups</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="system.1" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/GetReport.do?reportID=84">
+                            <span class="navbar-menu-item-text-padding">Events</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="alerts" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=alerts">
+                            <span class="navbar-menu-item-text-padding">Alerts</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="traffic_report" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=traffic_report">
+                            <span class="navbar-menu-item-text-padding">Traffic</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="logs" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=logs">
+                            <span class="navbar-menu-item-text-padding">Logs</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_agents" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=endpoint_health_status"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Agents</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="endpoint_health_status" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=endpoint_health_status">
+                            <span class="navbar-menu-item-text-padding">Overview</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="agent.2" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/GetReport.do?reportID=86">
+                            <span class="navbar-menu-item-text-padding">Events</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="endpoint_locations" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=endpoint_locations">
+                            <span class="navbar-menu-item-text-padding">Endpoint Location</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="agent_configuration" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=agent_configuration">
+                            <span class="navbar-menu-item-text-padding">Agent Configuration</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="agent_groups" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=agent_groups">
+                            <span class="navbar-menu-item-text-padding">Agent Groups</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="agent_password" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=agent_password">
+                            <span class="navbar-menu-item-text-padding">Agent Password</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="application_monitoring" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=application_monitoring">
+                            <span class="navbar-menu-item-text-padding">Application Monitoring</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="agent_packaging" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=agent_packaging">
+                            <span class="navbar-menu-item-text-padding">Agent Packaging</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="endpoint_device" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=endpoint_device">
+                            <span class="navbar-menu-item-text-padding">Endpoint Devices</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                            
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_allSystemReports" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=allSystemReports"
+                                            class="nav-menu-item-link"
+                                            ><span class="navbar-menu-item-text-padding">System Reports</span></a>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_people_settings" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=data_user_attribute"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Users</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="data_user_attribute" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=data_user_attribute">
+                            <span class="navbar-menu-item-text-padding">Attributes</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="data_user_source" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=data_user_source">
+                            <span class="navbar-menu-item-text-padding">Data Sources</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_incident_data" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=incident_labeling"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Incident Data</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="incident_labeling" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=incident_labeling">
+                            <span class="navbar-menu-item-text-padding">Attributes</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="lookupPlugins" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=lookupPlugins">
+                            <span class="navbar-menu-item-text-padding">Lookup Plugins</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="export_html_archive" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=export_html_archive">
+                            <span class="navbar-menu-item-text-padding">Web Archive</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="delete_incidents" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=delete_incidents">
+                            <span class="navbar-menu-item-text-padding">Incident Deletion</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="data_user_ip_mapping" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=data_user_ip_mapping">
+                            <span class="navbar-menu-item-text-padding">User Identification</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_general_settings" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=settings"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Settings</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="settings" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=settings">
+                            <span class="navbar-menu-item-text-padding">General</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="protocols" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=protocols">
+                            <span class="navbar-menu-item-text-padding">Protocols</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="directory_connections" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=directory_connections">
+                            <span class="navbar-menu-item-text-padding">Directory Connections</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="credentialConfiguration" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=credentialConfiguration">
+                            <span class="navbar-menu-item-text-padding">Credentials</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="dataInsight_settings" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=dataInsight_settings">
+                            <span class="navbar-menu-item-text-padding">Data Insight</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="ocr_configuration" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=ocr_configuration">
+                            <span class="navbar-menu-item-text-padding">OCR Engine Configuration</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="system_info" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=system_info">
+                            <span class="navbar-menu-item-text-padding">Supportability Telemetry</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="cloud_storage_authorization" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=cloud_storage_authorization">
+                            <span class="navbar-menu-item-text-padding">Cloud Authorization</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_loginManagement" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/navigate?menuID=users"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Login Management</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="users" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/navigate?menuID=users">
+                            <span class="navbar-menu-item-text-padding">DLP Users</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="roles" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/admin/roles/list">
+                            <span class="navbar-menu-item-text-padding">Roles</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                                        <li class="menu-item
+                                              dropdown dropdown-submenu 
+                                            
+                                            
+                                            " role="presentation">
+                                        <a id="report_group_database" role="menuitem"  tabindex="-1"
+                                            data-url="/ProtectManager/enforce/admin/database/tablespaces/list"
+                                            class="dropdown-toggle" data-toggle="dropdown"
+                                            ><span class="navbar-menu-item-text-padding">Database</span></a>
+    <ul class="dropdown-menu" role="menu" >
+                    <li class="menu-item " role="presentation">
+                        <a id="tablespace_allocation" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/admin/database/tablespaces/list">
+                            <span class="navbar-menu-item-text-padding">Tablespaces Summary</span></a>
+                    </li>
+                    <li class="menu-item " role="presentation">
+                        <a id="tables_allocation" href="#" tabindex="-1" role="menuitem" class="nav-menu-item-link" data-url="/ProtectManager/enforce/admin/database/tables/list">
+                            <span class="navbar-menu-item-text-padding">Table Details</span></a>
+                    </li>
+    </ul>
+                                        </li>
+                        </ul>
+                </li>
+        </ul>
+
+        <span class="nav navbar-nav navbar-right">
+            <a id="help-link" href="#" data-help-path="Network_Incident_Snapshot"
+                    ><img id="help-link-icon" src="/ProtectManager/graphics/question_16.png"
+                          alt="Help"
+                          title="Help"/></a>
+                <span id="navbar-print-mail">
+                        <a href="#" class="action-print" >
+                            <img id="navbar-print-icon" src="/ProtectManager/graphics/general/printeron_16.png"
+                                 alt="Print" title="Print"
+                                 class="action-print" /></a>
+                </span>
+                <span id="navbar-back-refresh">
+                    <a class="back-button"  href="#"><img src="/ProtectManager/graphics/paging/back_16.png" title="Return to previous page"/></a>
+                    <a class="refresh-button"  href="#"><img src="/ProtectManager/graphics/paging/refresh_16.png" title="Refresh this page"/></a>
+                </span>
+        </span>
+    </div>
+</div>
+
+<ol class="breadcrumb">
+
+            <li tabindex="0"><a class="object-menu-item" href="#" tabindex="-1" data-url="/ProtectManager/enforce/navigate?menuID=my_report_list">Incidents</a></li>
+            <li tabindex="0"><a class="object-menu-item" href="#" tabindex="-1" data-url="/ProtectManager/GetReport.do?reportID=3">Network</a></li>
+            <li tabindex="0"><a class="object-menu-item" href="#" tabindex="-1" data-url="/ProtectManager/GetReport.do?reportID=3">Incidents - New</a></li>
+            <li class="active">Network Incident Snapshot</li>
+
+    <li id="user-actions-dropdown" class="dropdown actionIcons hover-dropdown" tabindex="0">
+        <a id="logged-in-user-name" class="navbar-text dropdown-toggle" data-toggle="dropdown">
+            
+        Administrator <b class="caret"></b></a>
+        <ul class="dropdown-menu pull-right" role="menu" >
+                <li class="menu-item hovernav" role="presentation"><a id="logout-link" role="menuitem"
+                       href="#"
+                       data-message="Are you sure you want to logout?"
+                       data-userId="1"
+                       data-logoffParam="STANDARD"
+                        >Logout</a></li>
+            <li class="menu-item hovernav" role="presentation"><a id="profile-link" href="#" tabindex="-1" role="menuitem"
+                                            data-url="/ProtectManager/enforce/profile/edit">Profile</a></li>
+        </ul>
+    </li>
+</ol>
+
+<div id="main-content"></div>
+<div id="content-column">
+
+<div id="messages-section">
+</div>
+<form name="ProtectForm3" method="post" id="ProtectForm3" style="height:100%;">
+    <input type="hidden" name="value(media)" id="media" value="screen"/>
+    <input type="hidden" name="outputFormat" value="html"/>
+    <input type="hidden" name="value(incidentID)" id="incidentID" value="1262"/>
+    <input type="hidden" name="value(variable_1)" value="incident.id"/>
+    <input type="hidden" name="value(operator_1)" value="incident.id_in"/>
+    <input type="hidden" name="value(operand_1)" value="1262"/>
+    <input type="hidden" name="value(incidentIDs)"/>
+    <input type="hidden" name="value(incidentComment)"/>
+    <input type="hidden" name="value(incidentStatusID)"/>
+    <input type="hidden" name="value(incidentSeverityID)"/>
+    <input type="hidden" name="value(remediationStatus)"/>
+    <input type="hidden" name="value(responseRuleID)"/>
+    <input type="hidden" name="value(dataOwnerName)"/>
+    <input type="hidden" name="value(dataOwnerEmail)"/>
+    <input type="hidden" name="value(incidentRemediatorName)"/>
+    <input type="hidden" name="value(incidentRemediatorEmail)"/>
+    <input type="hidden" name="value(excludeFromArchive)"/>
+    <input type="hidden" name="value(forwardAction)" value="IncidentDetail"/>
+    <input type="hidden" name="value(reportType)" value="NETWORK"/>
+    <input type="hidden" name="value(autoAdvance)" value="true"/>
+
+	<div id="top-section">	
+	<div class="yui3-g toolbar "  >
+	    <div>
+            <div class="yui3-g">
+                <div class="yui3-u yui3-u-2-3">
+    <div id="incident-detail-smart-response-bar" class="yuimenubar yuimenubarnav action-bar">
+		<div class="bd">
+			<ul class="first-of-type">
+
+    <li id="execute-smart-response0" tabindex="0" class="yuimenubaritem first-of-type toolbar-button  smart-response-menu-button">
+        <a tabindex="0" class="yuimenubaritemlabel" href="javascript:executeResponseRule(65)" title="Approve">
+            <span class="menubar-text">Approve</span>
+        </a>
+    </li>
+    <li id="execute-smart-response1" tabindex="0" class="yuimenubaritem first-of-type toolbar-button  smart-response-menu-button">
+        <a tabindex="0" class="yuimenubaritemlabel" href="javascript:executeResponseRule(30)" title="Dismiss, Bus. Process Issue">
+            <span class="menubar-text">Dismiss, Bus. Process ...</span>
+        </a>
+    </li>
+    <li id="execute-smart-response2" tabindex="0" class="yuimenubaritem first-of-type toolbar-button  smart-response-menu-button">
+        <a tabindex="0" class="yuimenubaritemlabel" href="javascript:executeResponseRule(27)" title="Dismiss, False Positive">
+            <span class="menubar-text">Dismiss, False Positive</span>
+        </a>
+    </li>
+    <li id="execute-smart-response3" tabindex="0" class="yuimenubaritem first-of-type toolbar-button  smart-response-menu-button">
+        <a tabindex="0" class="yuimenubaritemlabel" href="javascript:executeResponseRule(28)" title="Escalate for Investigation">
+            <span class="menubar-text">Escalate for Investiga...</span>
+        </a>
+    </li>
+
+    <li id="smart-response-menu-button-overflow" tabindex="0" class="yuimenubaritem   smart-response-menu-button">
+        <a class="yuimenubaritemlabel" >
+            <span class="menubar-text">More</span>
+        </a>
+    <div class="yuimenu">
+        <div class="bd">
+            <ul class="first-of-type">
+    <li id="execute-smart-response-overflow0" class="yuimenuitem first-of-type ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(14)" title="Notify Manager">
+            <span class="menu-text">Notify Manager</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow1" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(13)" title="Notify Sender">
+            <span class="menu-text">Notify Sender</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow2" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(19)" title="Resolve, Business Issue">
+            <span class="menu-text">Resolve, Business Issue</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow3" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(17)" title="Resolve, Education Issue">
+            <span class="menu-text">Resolve, Education Issue</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow4" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(25)" title="Resolve, Employee Oversight">
+            <span class="menu-text">Resolve, Employee Oversight</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow5" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(31)" title="Resolve, One-time Event">
+            <span class="menu-text">Resolve, One-time Event</span>
+        </a>
+    </li>
+    <li id="execute-smart-response-overflow6" class="yuimenuitem  ">
+        <a class="yuimenuitemlabel  " href="javascript:executeResponseRule(16)" title="Resolve, Reply Oversight">
+            <span class="menu-text">Resolve, Reply Oversight</span>
+        </a>
+    </li>
+            </ul>
+        </div>
+    </div>
+    </li>
+			</ul>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+			YAHOO.util.Event.onDOMReady(function()
+			{
+				var menuConfig =
+				{
+					autosubmenudisplay: true,
+					showdelay: 0,
+                    constraintoviewport: false
+				};
+				var menuBar = new YAHOO.widget.MenuBar("incident-detail-smart-response-bar", menuConfig);
+				menuBar.render();
+
+ 				menuBar.subscribe("show", function ()
+                {
+                	if (YAHOO.env.ua.ie == 7)
+                	{
+                		this.align();
+                		this.align();
+                	}
+                });
+
+			    var actionableMenu = new vontu.common.reportControls.ActionMenu(menuBar);
+                $('#incident-detail-smart-response-bar .disabled').each(function(index)
+                {
+                    actionableMenu.setConfigProperty(this.id, 'disabled', true);
+                });
+			});
+         /*   ]]>       */
+		-->
+	</script>
+		</div>
+	</div>
+                </div>
+                <div class="yui3-u yui3-u-1-3 ">
+                        <span class="next-previous-customize-buttons">
+    <a id="customizeSnapshot" class="link-button web-only" href="#" title="Customize layout of incident detail"
+    	onclick="loadSnapshotCustomization();"
+    >
+Customize Layout    </a>
+    <span id="nextPreviousIncidents">
+	<button id="next_incident_button" class="real-link-button link-button nextPrevButton web-only" onclick="" type="button" title="Next Incident"
+            
+            data-url="NextPrevIncident.do?value(direction)=next&amp;value(reportType)=NETWORK&amp;value(state_menuID)=network.3"
+        >
+Next<b
+                    class="caret caret-right"></b>	</button>
+
+        </span>
+                        </span>
+                </div>
+            </div>
+	    </div>
+	</div>
+	</div>
+
+    <!-- begin 3-column layout -->
+    <table id="snapshot-table">
+        <tbody>
+        <tr>
+            <td id="left-column" align="left" valign="top">
+                <table id="snapshot-header">
+                    <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <h1>
+                            Incident 00001262
+	    <img align="absmiddle" style="left:7em; top:0.7em;"
+				alt="" title="Message Modified"
+			src="graphics/edited.gif"/>
+                            </h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="protocol-section" valign="bottom">
+                            <!-- incident header information-->
+                            <table>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <h2>
+<img src="graphics/protocol_2_icon.gif" class="protocol-icon spacing" alt="" align="absmiddle"/>	
+	
+	<a title="Incident Report by : SMTP"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.messagetype.id&amp;value(operator_10)=in&amp;value(operand_10)=2"			
+style="text-decoration:none;color:black;">SMTP</a>		
+                                        </h2>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td id="status-severity-section" valign="bottom">
+                            <table id="status-severity-table">
+                                <tbody>
+                                <tr>
+<td align="right">Status:</td><td>
+    <div class="menuGroup web-only" 
+         style="position:static;float:left;"
+         popupID="snapshotIncidentStatus-menu-popup"
+         onclick="vontu.floating.Popup.toggleDisplay(event)"
+ >
+        
+        <a id="snapshotIncidentStatus-menu"  
+            title="New" href="#" 
+            style="width:85px;color:black;text-align:left;float:left;"
+                class="link-button button"
+ ><span class="command-menu">New</span></a>
+        <div id="snapshotIncidentStatus-menu-popup" class="menuFrame web-only" style="overflow:auto;overflow-x:hidden;max-height:100px;_height:100px;">
+            <!--prevent self-closed div-->
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setStatus(1)"
+ >New</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setStatus(3)"
+ >Escalated</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setStatus(5)"
+ >Investigation</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setStatus(2)"
+ >Resolved</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setStatus(4)"
+ >Dismissed</a>
+        </div>
+     </div>
+</td></tr><tr><td align="right">Severity:</td><td>
+    <div class="menuGroup web-only" 
+         style="position:static;float:left;"
+         popupID="snapshotIncidentSeverity-menu-popup"
+         onclick="vontu.floating.Popup.toggleDisplay(event)"
+ >
+        
+        <a id="snapshotIncidentSeverity-menu"  
+            title="High" href="#" 
+            style="width:85px;color:black;text-align:left;float:left;"
+                class="link-button button"
+ ><span class="command-menu">High</span></a>
+        <div id="snapshotIncidentSeverity-menu-popup" class="menuFrame web-only" style="overflow:auto;overflow-x:hidden;max-height:100px;_height:100px;">
+            <!--prevent self-closed div-->
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setSeverity(1)"
+ >High</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setSeverity(2)"
+ >Medium</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setSeverity(3)"
+ >Low</a>
+                    <a
+                            onclick="vontu.cb()"
+							href="javascript:setSeverity(4)"
+ >Info</a>
+        </div>
+     </div>
+</td></tr>
+<tr><td align="right" id="remediationMenuLabel">Accepted:  </td><td><input type="checkbox" id="remediationMenu" name="com.vontu.manager.report.Menu@3e1d1398"  onchange="javascript:setRemediation(this)" >
+</input>
+</td>                                </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+<table id="tab-menu" class="tab-table">
+    <tbody>
+    <tr class="top-row">
+        <td class="left-spacer-top">
+            &#160;
+        </td>
+                    <td id="tab-top-0" class="tab-selected-top" title="Key Info"
+                        target="div_keyInfo">
+                        &#160;
+                    </td>
+                    <td id="tab-top-1" class="tab-unselected-top" target="div_history">
+                        &#160;
+                    </td>
+                    <td id="tab-top-2" class="tab-unselected-top" target="div_notes">
+                        &#160;
+                    </td>
+                    <td id="tab-top-3" class="tab-unselected-top" target="div_correlations">
+                        &#160;
+                    </td>
+        <td class="right-spacer-top">
+            &#160;
+        </td>
+    </tr>
+    <tr class="bottom-row">
+        <td class="left-spacer-bottom">
+            &#160;
+        </td>
+                    <td id="tab-bottom-0"
+                        class="tab-selected-bottom"
+                        target="div_keyInfo"
+                        title="Key Info"
+                        onclick="selectTab('tab-menu', 0, 'div_keyInfo');"
+                        >
+                        <a href="#" class="tab-anchor">Key Info</a>
+                    </td>
+                    <td id="tab-bottom-1"
+                        class="tab-unselected-bottom"
+                        target="div_history"
+                        title="History"
+                        onclick="selectTab('tab-menu', 1, 'div_history');"
+                        >
+                        <a href="#" class="tab-anchor">History</a>
+                    </td>
+                    <td id="tab-bottom-2"
+                        class="tab-unselected-bottom"
+                        target="div_notes"
+                        title="Notes"
+                        onclick="selectTab('tab-menu', 2, 'div_notes');"
+                        >
+                        <a href="#" class="tab-anchor">Notes</a>
+                    </td>
+                    <td id="tab-bottom-3"
+                        class="tab-unselected-bottom"
+                        target="div_correlations"
+                        title="Correlations"
+                        onclick="selectTab('tab-menu', 3, 'div_correlations');"
+                        >
+                        <a href="#" class="tab-anchor">Correlations</a>
+                    </td>
+        <td class="right-spacer-bottom">
+            &#160;
+        </td>
+    </tr>
+    </tbody>
+</table>
+            <div id="div_keyInfo" class="white-background">
+<div id="div_keyInfo" class="">
+	<div id="div_policy">
+		<center>
+			<table class="centered-table">
+				<tbody>
+					<tr>
+						<td class="snapshot-section-title">
+							Policy Matches
+						</td>
+					</tr>
+					<tr>
+						<td class="snapshot-section-content">
+							<table class="table-section-content">
+								<tbody>
+									<tr>
+										<th class="td_leftCol"></th>
+										<th class="td_centerCol" id="th_matches">
+											Matches
+										</th>
+										<th class="td_rightCol">&#160;</th>
+									</tr>
+									<tr>
+										<td class="td_leftCol">
+	
+	<a title="Incident Report by : test fo2sh"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.policy.id&amp;value(operator_10)=in&amp;value(operand_10)=41"			
+style="font-weight:bold;">test fo2sh</a>		<span class="web-only" style="white-space: nowrap;">
+[			<a href="" onclick="popupPolicySummary(41, 8); return false;"
+title="View Policy Summary">view policy</a>]		</span>
+										</td>
+										<td class="td_centerCol" style="text-align:center;">
+1										</td>
+										<td class="td_rightCol">
+	    <img align="absmiddle" style=""
+				alt="" title="Message Headers Were Modified By This Policy"
+			src="graphics/edited.gif"/>
+										</td>
+									</tr>
+
+										<tr>
+											<td class="td_leftCol" style="padding-top:5px;">
+												<div style="width:200px;;overflow:hidden;">
+													test (Keyword Match)
+												</div>
+											</td>
+											<td class="td_centerCol" style="text-align:center;">
+													1
+											</td>
+											<td class="td_rightCol">&#160;</td>
+										</tr>
+
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</div>
+
+	<div id="div_incidentDetails">
+	
+		<center>
+			<table class="centered-table">
+				<tbody>
+					<tr>
+						<td class="snapshot-section-title">						
+						Incident Details 						        
+						</td>
+					</tr>
+					<tr>
+						
+						<td class="snapshot-section-content">
+							<table class="table-section-content">
+					         
+								<tr class="not-web" style="width: 1%">
+									<td style="vertical-align:top;" class="document-details-message-header-label">
+										Status:
+									</td>
+									<td class="document-details-message-header-value">
+										New
+									</td>
+								</tr>
+								<tr class="not-web" style="width: 1%">
+									<td style="vertical-align:top;" class="document-details-message-header-label">
+										Severity:
+									</td>
+									<td class="document-details-message-header-value">
+										High
+									</td>
+								</tr>
+
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Server or Detector
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	
+	
+	<a title="Incident Report by Server or Detector: endpoint"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.monitor.id&amp;value(operator_10)=in&amp;value(operand_10)=141"			
+style="">endpoint</a>		
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Network Prevent Action
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+			Message Modified
+&#32;	    <img align="absmiddle" style=""
+				alt="" title="Message Modified"
+			src="graphics/edited.gif"/>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Is Hidden
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	<span id="incident-archive-status">
+			No
+	</span>
+		[ <a href="javascript:setExcludeFromArchive(1)" onclick="showLoadingIndicator()">Do Not Hide</a> ]
+                    </div>
+                </td>
+            </tr>
+    <tr>
+            <td style="line-height:0px">&#160;</td>
+            <td style="line-height:0px">
+                <hr/>
+            </td>
+    </tr>
+
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Date
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	
+5/&#8203;8/&#8203;18 12:48 PM                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Sender
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	
+	
+	<a title="Incident Report by Sender: exadmin@Share-technologies.org"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.sender&amp;value(operator_10)=contains-ignore-case&amp;value(operand_10)=exadmin%40Share-technologies.org"			
+style="">exadmin@Share-technologies.org</a>		
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Recipient
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	
+	<a title="Incident Report by Recipient: fady.azab@sharetech-me.com"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.recipient&amp;value(operator_10)=contains-ignore-case&amp;value(operand_10)=fady.azab%40sharetech-me.com"			
+style="">fady.azab@sharetech-me.com</a>                    </div>
+                </td>
+            </tr>
+    <tr>
+            <td style="line-height:0px">&#160;</td>
+            <td style="line-height:0px">
+                <hr/>
+            </td>
+    </tr>
+
+
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Subject
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+	
+	
+	<a title="Incident Report by Subject: test"
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.message.subject&amp;value(operator_10)=contains-ignore-case&amp;value(operand_10)=test"			
+style="">test</a>		
+                    </div>
+                </td>
+            </tr>
+    <tr>
+            <td style="line-height:0px">&#160;</td>
+            <td style="line-height:0px">
+                <hr/>
+            </td>
+    </tr>
+
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Data Owner Name
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+        <div style="width: 250px;">
+	
+	
+	<a title="Incident Report by Data Owner Name: "
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.data.owner.name&amp;value(operator_10)=equals-ignore-case&amp;value(operand_10)="			
+style=""></a>		
+        </div>
+
+            [<span id="set-dataowner-name" class="clickable-element set-value-label"
+>change</span>]
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="document-details-message-header-label">
+                Data Owner Email Address
+                </td>
+                <td class="document-details-message-header-value">
+                    <div class="fields-content-container wrapping-text" style="padding-top:2px;">
+        <div style="width: 250px;">
+	
+	
+	<a title="Incident Report by Data Owner Email Address: "
+		href="/ProtectManager/IncidentReport.do?value(variable_10)=incident.data.owner.email&amp;value(operator_10)=equals-ignore-case&amp;value(operand_10)="			
+style=""></a>		
+        </div>
+
+            [<span id="set-dataowner-email" class="clickable-element set-value-label"
+>change</span>]
+                    </div>
+                </td>
+            </tr>
+							</table> </td>
+						
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</div>
+
+
+
+	<center>
+		<table class="centered-table">
+			<tbody>
+				<tr>
+					<td class="snapshot-section-title">
+						Message Body
+					</td>
+				</tr>
+				<tr>
+					<td class="snapshot-section-content">
+								<p>
+?hamzoly<br/>								</p>
+								<!-- This limit also appears in IncidentInfoTable.java -->
+										<a class="web-and-export" href="javascript:openOriginalMessage();">
+											Open Original Message
+										</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+
+</div>
+            </div>
+            <div id="div_history" class="white-background" style="display:none;">
+	<center>
+		<table class="centered-table">
+			<tbody>
+				<tr>
+					<td class="snapshot-section-title">
+						History
+					</td>
+				</tr>
+				<tr>
+					<td class="snapshot-section-content">
+						<table class="table-section-content">
+							<tbody>
+									<tr>
+										<th style="width:20%;" class="historyHeader">
+											Date
+										</th>
+										<th style="width:30%;" class="historyHeader">
+											Submitted By
+										</th>
+										<th style="width:50%;" class="historyHeader">
+											Summary
+										</th>
+									</tr>
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/30/18 2:30 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			Administrator
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Attribute Lookup Completed
+				</span>
+				<br/>
+					Resolution=
+test=
+Dismissal Reason=
+Assigned To=
+Business Unit=
+Employee Code=
+First Name=
+Last Name=
+Phone=
+Sender Email=
+Manager First Name=
+Manager Last Name=
+Manager Phone=
+Manager Email=
+Region=
+Country=
+Postal Code=
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			Administrator
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Notification Sent
+				</span>
+				<br/>
+					Incident notification sent to exadmin@Share-technologies.org.
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			Administrator
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Status Changed
+				</span>
+				<br/>
+					New
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			endpoint
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Incident data discarded based on response rule
+				</span>
+				<br/>
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			Administrator
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Severity Changed
+				</span>
+				<br/>
+					High
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			endpoint
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Headers Modified
+				</span>
+				<br/>
+					Modified message headers:
+Added headers: X-dlp-uniquemsgid: D4BFF0C1-7191-445F-9484-4F259985F681
+X-dlp-policyid: 41
+		</td>
+	</tr>	
+	<tr>
+		<td class="document-details-right-nav-history document-details-right-nav-value" style="width:20%;">
+			5/8/18 12:49 PM
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:30%; max-width: 200px;">
+			endpoint
+		</td>
+		<td class="document-details-right-nav-history document-details-right-nav-value wrapping-text" style="width:50%; max-width: 150px;">
+				<span class="document-details-right-nav-subject">
+					Detected
+				</span>
+				<br/>
+		</td>
+	</tr>	
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+            </div>
+            <div id="div_notes" class="white-background" style="display:none;">
+	<center>
+		<table class="centered-table">
+			<tbody>
+				<tr>
+					<td class="snapshot-section-title">
+						Notes
+					</td>
+				</tr>
+				<tr>
+					<td class="snapshot-section-content">
+						<table class="table-section-content">
+							<tbody>
+									<tr class="web-only">
+										<td colspan="3" style="padding-bottom:5px;">
+	<div style="position:static;float:right;" export="hide">
+    <a id="comment_editor_editbutton"
+       class="link-button button web-only"
+       href="#"
+            title="Add Note"
+            style="white-space:nobr;float:left;"
+            popupId="addNoteDialog"
+    >Add Note</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'comment_editor_editbutton');
+	    		button.handleOnClick = function(event) { vontu.floating.Popup.show(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+		<div class="report-ctrl-dropdown" focusEl="add_comment_text_area"
+			id="addNoteDialog" onclick="vontu.cancelBubbling(event)">
+			<div class="report-ctrl-dropdown-title">
+				Add Note
+			</div>
+            <textarea id="add_comment_text_area" name="add_comment_text_area" cols="60" rows="6">&#160;</textarea>
+			<div>
+    <a id="comment_editor_cancelbutton"
+       class="link-button button web-only"
+       href="#"
+    >Cancel</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'comment_editor_cancelbutton');
+	    		button.handleOnClick = function(event) { vontu.floating.CommentEditor.cancel(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+    <a id="comment_editor_savebutton"
+       class="link-button button web-only"
+       href="#"
+    >Save</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'comment_editor_savebutton');
+	    		button.handleOnClick = function(event) { vontu.floating.CommentEditor.save(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+			</div>
+		</div>
+	</div>
+										</td>
+									</tr>
+										<td class="note_label" colspan="3">
+											No notes added
+										</td>
+							</tbody>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+            </div>
+            <div id="div_correlations" class="white-background" style="display:none;">
+
+<script type="text/javascript" src="js/page/_correlations_pane.js"></script>
+
+	<div id="div_correlations">
+		<center>
+			<table class="centered-table">
+				<tbody>
+					<tr>
+						<td class="snapshot-section-title">
+							Correlations
+						</td>
+					</tr>
+					<tr>
+						<td class="snapshot-section-content">
+							<table class="table-section-content">
+								<tbody>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</div>
+            </div>
+            </td>
+            <td id="left-divider" class="divider"></td>
+            <td align="left" valign="top">
+	<span id="unsupportImageTitle" data-value="This image format is not supported by this browser"></span>
+	<span id="unsupportImageCaption" data-value="Click to download"></span>
+	<center>
+		<table class="centered-table">
+			<tbody>
+				<tr>
+					<td class="snapshot-section-title">
+Matches (matches found in 1 component)					</td>
+				</tr>
+				<tr>
+					<td class="snapshot-section-content">
+
+<div class="matchSection"><h2 tabIndex="0" class="toggle-match-row" onclick="toggleMatch(event)" style="position:static;"><img src="graphics/unknown.gif" alt="unknown"/>												<a href="DownloadAttachment.do?crackedmessageID=2344&amp;incidentID=1262"
+title="Download File: Body">Body</a><span style="font:11px/12px tahoma;padding-left:0.5em;" >(1 Match):</span>									</h2>
+																				 
+<p>?		<a class="highlight" title="test" href="#" class="web-only"
+	            onclick="popupRuleSummary('223', 41, 8)"
+>hamzoly</a><wbr/>											</p>
+
+								</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+
+            </td>
+            <td id="right-divider" class="divider">
+                <div id="div-toggle-container">
+                    <div id="div-toggle" class="div-toggle-open"
+                         onclick="sidebarManager.toggleSidebar('right-column', 'div-toggle');"
+                         title="Toggle Section">
+                        &#160;
+                    </div>
+                </div>
+            </td>
+            <td id="right-column" class="right-column-open" style="width:375px;" align="left"
+                valign="top">
+<center>
+    <table class="centered-table">
+        <tbody>
+        <tr>
+            <td class="snapshot-section-title">
+            Attributes
+            </td>
+        </tr>
+        <tr>
+            <td class="snapshot-section-content">
+                <table class="table-section-content">
+                    <tbody>
+
+                        <tr>
+                            <td colspan="2" class="web-only">
+    <a id="attributes_editor_editbutton"
+       class="link-button button web-only"
+       href="#"
+            title="Edit Attributes"
+            style="white-space:nobr;"
+            popupId="attributesDialog"
+    >Edit</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'attributes_editor_editbutton');
+	    		button.handleOnClick = function(event) { vontu.floating.AttributesEditor.show(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+    <a id="attributes_editor_editbutton"
+       class="link-button button web-only"
+       href="javascript:lookupCustomAttributes()"
+            title="Lookup Attributes"
+            style="margin-right:5px;"
+    >Lookup</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'attributes_editor_editbutton');
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+<!-- format for inline popup dialog -->
+<div style="position:static;float:right;" export="hide">
+    <div class="report-ctrl-dropdown" focusEl="value(customAttributeID:1)"
+         id="attributesDialog" onclick="vontu.cancelBubbling(event)">
+        <!-- title section -->
+        <div class="report-ctrl-dropdown-title" style="padding-bottom:1em;">
+        Edit Attributes
+        </div>
+        <div class="label" style="padding:0px;padding-bottom:1em;height:225px; overflow: auto;">
+<table class="editable-attribute-table" style="position:static;width:350px;">
+        <tbody>
+        <tr>
+            <th colspan="2">
+            Predefined
+            </th>
+        </tr>
+        <!-- for each attribute in a group -->
+                <tr>
+                    <td class="label">
+Resolution                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:1)"
+                                   id="value(customAttributeID:1)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Dismissal Reason                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:2)"
+                                   id="value(customAttributeID:2)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Assigned To                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:3)"
+                                   id="value(customAttributeID:3)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Business Unit                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:4)"
+                                   id="value(customAttributeID:4)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Employee Code                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:5)"
+                                   id="value(customAttributeID:5)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+First Name                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:6)"
+                                   id="value(customAttributeID:6)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Last Name                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:7)"
+                                   id="value(customAttributeID:7)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Phone                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:8)"
+                                   id="value(customAttributeID:8)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Sender Email                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:9)"
+                                   id="value(customAttributeID:9)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Manager First Name                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:11)"
+                                   id="value(customAttributeID:11)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Manager Last Name                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:10)"
+                                   id="value(customAttributeID:10)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Manager Phone                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:12)"
+                                   id="value(customAttributeID:12)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Manager Email                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:13)"
+                                   id="value(customAttributeID:13)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Region                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:14)"
+                                   id="value(customAttributeID:14)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Country                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:15)"
+                                   id="value(customAttributeID:15)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">
+Postal Code                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:16)"
+                                   id="value(customAttributeID:16)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+        </tbody>
+        <tbody>
+        <tr>
+            <th colspan="2">
+            test
+            </th>
+        </tr>
+        <!-- for each attribute in a group -->
+                <tr>
+                    <td class="label">
+test                    </td>
+                    <td class="value" style="height:2em;">
+                        <!-- if editable -->
+                            <input name="value(customAttributeID:17)"
+                                   id="value(customAttributeID:17)"
+                                   type="text"
+                                   value=""
+                                   size="60"
+                                   maxLength="60"/>
+                    </td>
+                </tr>
+        </tbody>
+</table>
+        </div>
+        <div style="margin-top:10px; bottom: 5px; right: 15px;">
+    <a id="attributes_editor_cancelbutton"
+       class="link-button button web-only"
+       href="#"
+    >Cancel</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'attributes_editor_cancelbutton');
+	    		button.handleOnClick = function(event) { vontu.floating.AttributesEditor.cancel(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+    <a id="attributes_editor_savebutton"
+       class="link-button button web-only"
+       href="#"
+    >Save</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'attributes_editor_savebutton');
+	    		button.handleOnClick = function(event) { vontu.floating.AttributesEditor.save(event) };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+        </div>
+    </div>
+</div>
+                            </td>
+                        </tr>
+<tr>
+    <td colspan="2" style="font-weight:bold;padding-top:5px;">
+    Predefined
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Resolution            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Dismissal Reason            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Assigned To            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Business Unit            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Employee Code            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">First Name            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Last Name            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Phone            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Sender Email            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Manager First Name            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Manager Last Name            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Manager Phone            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Manager Email            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Region            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Country            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">Postal Code            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td colspan="2" style="font-weight:bold;padding-top:5px;">
+    test
+    </td>
+</tr>
+<tr>
+    <td style="padding:3px 10px 1px 10px;vertical-align:top">
+<span class="attribute-link">test            </span>
+    </td>
+    <td style="white-space: normal; word-wrap: break-word">
+        <div>
+        </div>
+    </td>
+</tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+</center>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+	<div id="div_sendNow" class="report-ctrl-dropdown"
+		 style="padding: 1em 15px 0.5em; display: none; width: 510px; z-index: 300; top: 78px; position: absolute; left: auto; right: 0px;">
+		<table class="editable-attribute-table" style="width: 510px;">
+		<tr>
+			<th colspan="2">
+				Send Report
+			</th>
+		</tr>
+		<tr>
+			<td class="label">
+				To<br/><span class="instructions">(comma-separated list of email addresses)</span>
+			</td>
+			<td class="value">
+				<textarea name="value(to)" wrap="VIRTUAL" maxlength="256"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td class="label">
+				Subject
+			</td>
+			<td class="value">
+				<input name="value(subject)" type="text" class="text" maxlength="256" value=""/>
+			</td>
+		</tr>
+		<tr>
+			<td class="label">
+				Message
+			</td>
+			<td class="value">
+				<textarea name="value(message)" wrap="VIRTUAL"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+    <a id="canceSendReport_button"
+       class="link-button button web-only"
+       href="#"
+    >Cancel</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'canceSendReport_button');
+	    		button.handleOnClick = function(event) { javascript:cancelSendReport(); };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+    <a id="sendReport_button"
+       class="link-button button web-only"
+       href="#"
+    >Send</a>
+	<script type="text/javascript">
+		<!--
+         /*   <![CDATA[ */
+    	(function()
+    	{
+    		var button = new Button(null, 'sendReport_button');
+	    		button.handleOnClick = function(event) { javascript:confirmSendReport(); };
+	    	button.render();
+    	})();
+         /*   ]]>       */
+		-->
+	</script>
+			</td>
+		</tr>
+		</table>
+	</div>
+</form>
+</div> 
+
+</div>
+
+
+
+	<div class="yui-skin-sam yuiDialog extended-dialog">
+		<div id="dataOwnerDialog" class="yui-module yui-overlay yui-panel " style="visibility: hidden; z-index: 2;">
+			<div class="hd">Edit Data Owner Name</div>
+			<div class="bd">
+				<div class="extended-dialog-body">
+		<form name="dataOwnerForm">
+	
+
+<div id="dataOwnerField-field-container" class="field no-field-spacing yui3-g"
+     xmlns="http://www.w3.org/1999/html">
+		<div class="field-element yui3-u-1-4">
+			<label for="dataOwnerField" class="field-name-text  wrapping-text">Name: </label>
+
+		</div>
+		<div class="field-element yui3-u-3-4" >
+		<div class="yui3-g middle-align">
+			<div class="yui3-u-1">
+				<span><input id="dataOwnerField" type="text" class="max-width " maxlength="256"
+					name="value(dataOwnerName)" value=""
+					  
+					 
+
+				     
+				    
+				    
+				    
+                    />
+    
+                </span>
+			</div>
+	<div class=" yui3-u-1">
+	<ul class="form-field-validation-error-list">
+		<li class="row">
+		  <span class="field-validation-error-message-text dataOwnerField-validation-error-text"></span>
+		</li>
+	</ul>
+	</div>
+		</div>
+		</div>
+	</div>
+		</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="yui-skin-sam yuiDialog extended-dialog">
+		<div id="dataOwnerEmailDialog" class="yui-module yui-overlay yui-panel " style="visibility: hidden; z-index: 2;">
+			<div class="hd">Edit Data Owner Email Address</div>
+			<div class="bd">
+				<div class="extended-dialog-body">
+   		<form name="dataOwnerEmailForm">
+	
+
+<div id="dataOwnerEmailField-field-container" class="field no-field-spacing yui3-g"
+     xmlns="http://www.w3.org/1999/html">
+		<div class="field-element yui3-u-1-4">
+			<label for="dataOwnerEmailField" class="field-name-text  wrapping-text">Email Address: </label>
+
+		</div>
+		<div class="field-element yui3-u-3-4" >
+		<div class="yui3-g middle-align">
+			<div class="yui3-u-1">
+				<span><input id="dataOwnerEmailField" type="text" class="max-width required" maxlength="256"
+					name="value(dataOwnerEmail)" value=""
+					  
+					 
+
+				     
+				    
+				    
+				    
+                    />
+    
+                </span>
+			</div>
+	<div class=" yui3-u-1">
+	<ul class="form-field-validation-error-list">
+		<li class="row">
+		  <span class="field-validation-error-message-text dataOwnerEmailField-validation-error-text"></span>
+		</li>
+	</ul>
+	</div>
+		</div>
+		</div>
+	</div>
+		</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="yui-skin-sam yuiDialog extended-dialog">
+		<div id="incidentRemediatorNameDialog" class="yui-module yui-overlay yui-panel " style="visibility: hidden; z-index: 2;">
+			<div class="hd">Edit Incident Remediator Name</div>
+			<div class="bd">
+				<div class="extended-dialog-body">
+		<form name="incidentRemediatorNameForm">
+	
+
+<div id="incidentRemediatorNameField-field-container" class="field no-field-spacing yui3-g"
+     xmlns="http://www.w3.org/1999/html">
+		<div class="field-element yui3-u-1-4">
+			<label for="incidentRemediatorNameField" class="field-name-text  wrapping-text">Name: </label>
+
+		</div>
+		<div class="field-element yui3-u-3-4" >
+		<div class="yui3-g middle-align">
+			<div class="yui3-u-1">
+				<span><input id="incidentRemediatorNameField" type="text" class="max-width " maxlength="256"
+					name="value(incidentRemediatorName)" value=""
+					  
+					 
+
+				     
+				    
+				    
+				    
+                    />
+    
+                </span>
+			</div>
+	<div class=" yui3-u-1">
+	<ul class="form-field-validation-error-list">
+		<li class="row">
+		  <span class="field-validation-error-message-text incidentRemediatorNameField-validation-error-text"></span>
+		</li>
+	</ul>
+	</div>
+		</div>
+		</div>
+	</div>
+		</form>
+				</div>
+			</div>
+		</div>
+	</div>
+   	
+	<div class="yui-skin-sam yuiDialog extended-dialog">
+		<div id="incidentRemediatorEmailDialog" class="yui-module yui-overlay yui-panel " style="visibility: hidden; z-index: 2;">
+			<div class="hd">Edit Incident Remediator Email Address</div>
+			<div class="bd">
+				<div class="extended-dialog-body">
+   		<form name="incidentRemediatorEmailForm">
+	
+
+<div id="incidentRemediatorEmailField-field-container" class="field no-field-spacing yui3-g"
+     xmlns="http://www.w3.org/1999/html">
+		<div class="field-element yui3-u-1-4">
+			<label for="incidentRemediatorEmailField" class="field-name-text  wrapping-text">Email Address: </label>
+
+		</div>
+		<div class="field-element yui3-u-3-4" >
+		<div class="yui3-g middle-align">
+			<div class="yui3-u-1">
+				<span><input id="incidentRemediatorEmailField" type="text" class="max-width required" maxlength="256"
+					name="value(incidentRemediatorEmail)" value=""
+					  
+					 
+
+				     
+				    
+				    
+				    
+                    />
+    
+                </span>
+			</div>
+	<div class=" yui3-u-1">
+	<ul class="form-field-validation-error-list">
+		<li class="row">
+		  <span class="field-validation-error-message-text incidentRemediatorEmailField-validation-error-text"></span>
+		</li>
+	</ul>
+	</div>
+		</div>
+		</div>
+	</div>
+		</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="/ProtectManager/js/polyfill/progress/progress-polyfill.js"></script>
+
+<script type="text/javascript" src="/ProtectManager/js/container_loaded.js"></script>
+
+
+
+	<div id="vontu.widgets.dialog" class="max-height-regular min-width-regular max-width-regular hidden" title= "" > 
+		<div id="dialog-content">
+			<div class="text-message normal larger-text large-padding">
+				
+			</div>
+			<div class="html-message normal larger-text large-padding">
+				
+			</div>
+		</div>
+	</div>
+
+<span id="localeInfo" class="hidden" data-locale-code="en_US"></span>
+
+    </body>
+</html>
+
+
+
+<!-- Page Rendering Time: 0.843 seconds -->
