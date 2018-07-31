@@ -1,0 +1,14 @@
+POST /ProtectManager/SelectResponseForManualExecute.do HTTP/1.1
+Host: 192.168.1.233
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://192.168.1.233/ProtectManager/IncidentDetail.do?value(variable_1)=incident.id&value(operator_1)=incident.id_in&value(operand_1)=1262&value(state_menuID)=network.3
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1443
+Cookie: JSESSIONID=EE557B18A08DB13C999EF13E1DB7EE2F; uidevmode=0; snapshot-selected-tab-index=
+Connection: close
+Upgrade-Insecure-Requests: 1
+
+value%28media%29=screen&outputFormat=html&value%28incidentID%29=1262&value%28variable_1%29=incident.id&value%28operator_1%29=incident.id_in&value%28operand_1%29=1262&value%28incidentIDs%29=1262&value%28incidentComment%29=&value%28incidentStatusID%29=&value%28incidentSeverityID%29=&value%28remediationStatus%29=&value%28responseRuleID%29=65&value%28dataOwnerName%29=&value%28dataOwnerEmail%29=&value%28incidentRemediatorName%29=&value%28incidentRemediatorEmail%29=&value%28excludeFromArchive%29=&value%28forwardAction%29=IncidentDetail&value%28reportType%29=NETWORK&value%28autoAdvance%29=true&add_comment_text_area=&value%28customAttributeID%3A1%29=&value%28customAttributeID%3A2%29=&value%28customAttributeID%3A3%29=&value%28customAttributeID%3A4%29=&value%28customAttributeID%3A5%29=&value%28customAttributeID%3A6%29=&value%28customAttributeID%3A7%29=&value%28customAttributeID%3A8%29=&value%28customAttributeID%3A9%29=&value%28customAttributeID%3A11%29=&value%28customAttributeID%3A10%29=&value%28customAttributeID%3A12%29=&value%28customAttributeID%3A13%29=&value%28customAttributeID%3A14%29=&value%28customAttributeID%3A15%29=&value%28customAttributeID%3A16%29=&value%28customAttributeID%3A17%29=&value%28to%29=&value%28subject%29=&value%28message%29=&csrfProtectionToken=RL%2FkurOhfa1oKfOvPwAiZw%3D%3D&value%28csrfProtectionToken%29=RL%2FkurOhfa1oKfOvPwAiZw%3D%3D&value%28state_menuID%29=network.3&value%28state_selectedTab%29=undefined

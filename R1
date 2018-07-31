@@ -1,0 +1,11 @@
+GET /ProtectManager/IncidentDetail.do?value(variable_1)=incident.id&value(operator_1)=incident.id_in&value(operand_1)=1262&value(state_menuID)=network.3 HTTP/1.1
+Host: 192.168.1.233
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://192.168.1.233/ProtectManager/GetReport.do?reportID=3
+Cookie: JSESSIONID=EE557B18A08DB13C999EF13E1DB7EE2F; uidevmode=0; snapshot-selected-tab-index=
+Connection: close
+Upgrade-Insecure-Requests: 1
+
